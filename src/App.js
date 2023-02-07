@@ -11,7 +11,7 @@ import './App.css';
 // import Headermarket from "./Headermarket";
 // import Todolist from "./Todolist";
 // import HookStateEffect from "./HookStateEffect";
-// import TableHook from "./TableHook";
+import TableHook from "./TableHook";
 // import ContactFormParent from "./contactform/ContactFormParent";
 // import ShoppingListParent from "./contactform/ShoppingListParent";
 // import ShoopingCart from "./ShoopingCart";
@@ -22,12 +22,14 @@ import './App.css';
 // import QueryApi from "./ApiCalling/QueryApi";
 // import PostApi from "./ApiCalling/PostApi";
 // import PostSuccessful from "./ApiCalling/PostSuccessful";
-import ApiPutDelete from './ApiPutDelete.jsx';
-import JavaScriptPractice from './JavaScriptPractice';
+// import ApiPutDelete from './ApiPutDelete.jsx';
+// import JavaScriptPractice from './JavaScriptPractice';
+import RoutingDom from './RoutingDom/Home'
+// import ReactRouter from './ReactRouter';
 function App() {
   return (
     <div className=''>
-      {/* <TableHook /> */}
+      <TableHook />
       {/* <ShoopingCart /> */}
       {/* <ShoppingListParent /> */}
       {/* <ApiCalling /> */}
@@ -38,7 +40,9 @@ function App() {
       {/* <PostApi/> */}
       {/* <PostSuccessful /> */}
       {/* <ApiPutDelete /> */}
-      <JavaScriptPractice />
+      {/* <JavaScriptPractice /> */}
+      {/* <RoutingDom /> */}
+      {/* <ReactRouter /> */}
     </div>
   );
 }

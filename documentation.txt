@@ -123,3 +123,17 @@ respData.filter((filtItem) =>
 
                   // GIT
                   1 https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git
+
+
+
+                  // while facing error in installing a new third party library
+                  1 . npm cache clean --force
+
+                  2. npm i -g npm
+
+                  3. npm cache verify
+
+                  4. npm i
+                   5. npm i react-router-dom
+
+                   https://reactrouter.com/web/guides/quick-start
